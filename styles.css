@@ -1,0 +1,11 @@
+    body { background: #080f1d; color: #e7edf7; }
+    .hero { background: radial-gradient(ellipse at top right, #153b50, transparent 65%), #101d30; }
+    .card { background: #101d30; border-color: #35465e; }
+    .eyebrow { color: #70e2cd; letter-spacing: .15em; }
+    .btn-primary { --bs-btn-bg: #70e2cd; --bs-btn-color: #07141d; --bs-btn-border-color: #70e2cd; --bs-btn-hover-bg: #a0efdf; --bs-btn-hover-color: #07141d; --bs-btn-hover-border-color: #a0efdf; }
+    a { color: #8bdfff; }
+    .btn, .form-control, .form-select { min-height: 46px; }
+    :focus-visible { outline: 3px solid #70e2cd !important; outline-offset: 4px; }
+    .skip { position: absolute; top: -100px; left: 1rem; z-index: 10; }
+    .skip:focus { top: 1rem; }
+    .card h3 { overflow-wrap: anywhere; }

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-GB" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore CISA known exploited vulnerabilities with search and vendor filters.">
+  <title>About | IntelScope</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <a href="#main" class="skip btn btn-primary">Skip to main content</a>
+  <nav class="container d-flex flex-wrap justify-content-between align-items-center gap-3 py-4" aria-label="Main navigation">
+    <a class="fs-4 fw-bold text-decoration-none" href="index.html">IntelScope<span class="text-info">.</span></a>
+    <div class="d-flex flex-wrap gap-3"><a href="index.html">Home</a><a href="explorer.html">Vulnerability Explorer</a><a href="about.html">About</a></div>
+  </nav>
+  <header id="top" class="hero border-top border-bottom py-5">
+    <div class="container">
+      <p class="eyebrow small fw-bold">CYBER THREAT INTELLIGENCE</p>
+      <h1 class="display-4 fw-bold">Track what attackers exploit.</h1>
+      <p class="lead col-lg-8">Explore CISA’s Known Exploited Vulnerabilities catalogue. Search your technology stack and review recommended actions.</p>
+      <a class="btn btn-primary fw-semibold" href="explorer.html">Explore the feed</a>
+    </div>
+  </header>
+  <main id="main" tabindex="-1" class="container py-5">
+    <section id="about" class="card p-4 mt-5" aria-labelledby="about-title">
+      <h2 id="about-title" class="h4">Understand the data</h2>
+      <p>Entries come from CISA’s Known Exploited Vulnerabilities catalogue, loaded from its official GitHub JSON feed. Newest means most recently added to the catalogue, not most recently discovered.</p>
+      <p>“Unknown” ransomware use does not mean no ransomware use. Inclusion does not establish that your systems are affected or currently under attack. This feed does not include CVSS severity scores.</p>
+      <p class="mb-0"><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA catalogue</a> · <a href="https://github.com/cisagov/kev-data">Official data repository</a></p>
+    </section>
+    <section class="card p-4 mt-4" aria-labelledby="platform-title">
+      <h2 id="platform-title" class="h4">About IntelScope</h2>
+      <p>IntelScope is a threat intelligence platform focused on vulnerabilities with evidence of exploitation. It brings CISA catalogue entries into a searchable view to help security teams identify relevant threats and review mitigation guidance.</p>
+      <h3 class="h5">Find what matters to your environment</h3>
+      <p>Search by CVE, product or keyword, narrow results by vendor, and explore vulnerabilities associated with known ransomware campaigns. Each entry includes a description, its catalogue addition date, CISA’s recommended action and a link to the National Vulnerability Database.</p>
+      <h3 class="h5">Turn intelligence into informed action</h3>
+      <p>Use IntelScope to support vulnerability triage and prioritisation. Match the information to your asset inventory, affected versions and exposure, then consult vendor guidance to determine the appropriate response.</p>
+    </section>
+  </main>
+  <footer class="container border-top py-4 d-flex flex-wrap justify-content-between gap-2"><p class="mb-0">IntelScope · Cyber Threat Intelligence</p><a href="#top">Back to top</a></footer>
+
+</body>
+</html>
